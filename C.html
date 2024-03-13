@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WBC_SCHOOL</title>
+    <link rel="icon" href="image/lgo.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        /* Style the header */
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 15px;
+        }
+
+        /* Clear floats after the columns */
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bigblock">
+        <div class="left"><img src="image/lgo.png" alt=""></div>
+        <div class="right">
+            <nav>
+                <ul>
+                    <li><a class="h" href="index.html">Home</a></li>
+                    <li><a class="h" href="about.html">About</a></li>
+                 
+
+                </ul>
+            </nav>
+        </div>
+       
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="image/C-Language-Introduction.png" style="width:70%;" alt="">
+            <font face="khmer os">​<p>ភាសាកូដ C គឺជា ភាសាកូដផ្លូវការដ៏ទូទៅនៃភាសាកូដ។
+                    វាត្រូវបានប្រើជាមួយនឹងកម្មវិធីបង្កើតកូដក្នុងប្រព័ន្ធអតិថិជននិងកម្មវិធីប្រព័ន្ធបញ្ជាក់ទិន្នន័យ។
+                    ខាងក្រោមនេះគឺជាឧទាហរណ៍ងាយស្រួលលើដើមគ្រប់គ្រាន់ពេលការប្រើភាសាកូដ C:
+                </p>
+                <p>
+                <p style="color: red;">#include stdio.h</p>
+                int main() { <br>
+                <p style="color: #76a07d;"> // បង្ហាញអត្ថបទលើអេក្រង់</p>
+                printf("Hello, World!\n"); <br>
+
+                <p style="color: #76a07d;"> // បង្ហាញលេខលើអេក្រង់</p>
+                int num = 5; <br>
+                printf("The number is: %d\n", num); <br>
+
+                <p style="color: #76a07d;"> // ប្រើអថេរនិងគ្រប់គ្រង if-else</p>
+                <p style="color:red">int x = 10;</p>
+                <p style="color: rgb(187, 142, 46);"> if (x > 5) {</p>
+                printf("x is greater than 5\n"); <br>
+                } else { <br>
+                printf("x is not greater than 5\n");
+                } <br>
+
+                <p style="color: #76a07d;"> // ប្រើ loop (for)</p>
+                for (int i = 0; i < 5; i++) { printf("Iteration %d\n", i); } <br>
+
+                    <p style="color: slateblue;">return 0; </p>
+                    } <br>
+                    ក្នុងឧទាហរណ៍នេះ, យើងប្រើ #include <stdio.h> ដើម្បីបញ្ជូនប្រព័ន្ធរបស់យើងដើម្បីការប្រើ printf
+                        ដើម្បីបង្ហាញទិន្នន័យលើអេក្រង់។ បន្តបន្ថែម, យើងប្រើ int main()
+                        ដើម្បីកំណត់ព័ត៌មានលំអិតអំពីកូដដែលនឹងត្រូវបានចាប់ផ្តើម។ return 0;
+                        គឺជាប្រភេទទិន្នន័យដែលអាចត្រូវបានបញ្ចប់កូដដើម្បីទទួលបានសេចក្តីស្រាវជ្រាវពីការប្រើជាមួយប្រព័ន្ធអតិថិជន។
+
+                        បន្តបន្ថែម, យើងប្រើ printf ដើម្បីបង្ហាញអត្ថបទនៅលើអេក្រង់ និងប្រើ if និង else
+                        ដើម្បីប្រើអថេរនិងប្រើ loop for ដើម្បីបង្ហាញទិន្នន័យដោយប្រើការដំឡើងលើអេក្រង់។
+
+                        ការប្រើភាសាកូដ C គឺជា
+                        សិល្បៈដែលត្រូវបានសិក្សាយ៉ាងទាមទាររួចរាល់រាតរបស់អ្នកដើម្បីសិក្សានិងគិតយកជំនាញក្នុងវិទ្យាសាស្ត្រភាសាកូដ។
+                        </p>
+
+            </font>
+            <img src="image/syntaxofFunction.png" style="width:70%;" alt="">
+            <font face="khmer os">
+                <h3> syntax </h3>
+                <p>សញ្ញាកូដគឺជាផ្នែកនៃភាសាកូដដែលប្រើដើម្បីបង្កើនកូដក្នុងភាសាកូដបែបនេះត្រូវបានគេរក្សាទុកនៅក្នុងរបារកូដបន្ថែម។
+                    សញ្ញាកូដជាមួយនឹងអក្សរនៅក្នុងភាសាកូដត្រូវបានសរសេរដើម្បីបង្ហាញពីការបង្កើននិងគ្រប់គ្រងបទពិសោធន៍ក្នុងកូដ។
+                    សញ្ញាកូដនៅក្នុងភាសាកូដ C ត្រូវបានបញ្ជាក់ជាផ្តល់ជូនដោយប្រភពដោយទីតាំងនៃកូដ។
+
+                    មុនពេលធ្វើការសរសេរកូដ C, អ្នកត្រូវប្រកាន់សញ្ញាកូដដោយបន្តបន្ទាប់ដោយផ្នែកកូដដែលហៅថា "បញ្ជូនទិន្នន័យ" ឬ
+                    "ច្បាស់លាស់"។ ឧទាហរណ៍នេះបង្ហាញអំពីការប្រកាន់បន្តការប្រើកូដ C:</p>
+                <p> <br>
+                    #include <stdio.h>
+
+                        int main() { <br>
+                        // បញ្ជូនទិន្នន័យដោយប្រើអ្វីមួយ
+                        printf("Hello, World!\n"); <br>
+
+                        // ច្បាស់លាស់: កំណត់តម្លៃអថេរ
+                        int x = 5; <br>
+
+                        // ច្បាស់លាស់: if-else statement
+                        if (x > 0) { <br>
+                        printf("Positive\n");
+                        } else if (x < 0) { <br>
+                            printf("Negative\n");
+                            } else { <br>
+                            printf("Zero\n");
+                            }
+
+                            return 0; // ច្បាស់លាស់: បញ្ជាក់របស់កូដបានបញ្ចប់ <br>
+                            } <br>
+                            ក្នុងឧទាហរណ៍នេះ, យើងមិនចាំបាច់រៀនអំពីការសញ្ញាកូដទាំងនេះ។ ក្នុងឧទាហរណ៍, យើងបង្ហាញការប្រើអថេរ,
+                            ច្បាស់លាស់ if-else statement, និងការបញ្ជាក់ដោយប្រើ printf សម្រាប់បង្ហាញទិន្នន័យនៅក្នុងកូដ C។
+                            អ្នកអាចស្វែងយល់បន្ថែមអំពីភាសាកូដ C និងដំឡើងលក្ខណៈពិសោធន៍របស់វា។
+                </p>
+            </font>
+        </div>
+
+        <div class="column">
+            <img src="image/2023_02_MicrosoftTeams-image-291.jpg" style="width: 70%;" alt="">
+            <font face="khmer os">
+                <h3>C Variables</h3>
+                <p>
+
+                    ក្នុងភាសាកូដ C, អ្នកអាចប្រើអថេរដូចជា "អញ្ញា" ឬ "អថេរ" ដើម្បីកំណត់ទិន្នន័យដោយតម្លៃនិងប្រើក្នុងកូដ។
+                    ស្ថិតក្នុងការអនុវត្តទិន្នន័យ, អញ្ញា (Variable) ជាឈ្មោះនៃមុខងារដ៏ងាយរួចប្រើតម្លៃបែបនេះ។
+                    មានទិន្នន័យតែមួយទៅនឹងអញ្ញា។ ពណ៌នៃអញ្ញា ក៏ត្រូវបានកំណត់ដោយមិនបាច់តាងតម្លៃថ្មីទេ។
+
+                    ឧទាហរណ៍ខាងក្រោមបង្ហាញអញ្ញា x ដែលត្រូវបានកំណត់ជាចំនួនគត់ និងតម្លៃដោយផ្ទាល់:
+
+
+                <p>#include < stdio.h> <br>
+
+                        int main() {
+                        // កំណត់អញ្ញា x ជាចំនួនគត់ និងតម្លៃគឺ 5 <br>
+                        int x = 5;
+
+                        // បង្ហាញតម្លៃនៃ x ទៅលើអេក្រង់ <br>
+                        printf("The value of x is: %d\n", x);<br>
+
+                        return 0;
+                        } <br>
+                        ឧទាហរណ៍នេះ, យើងបានកំណត់អញ្ញា x ជាចំនួនគត់និងបានផ្ទាល់តម្លៃគឺ 5។ ត្រលប់ទៅកាន់អេក្រង់, យើងប្រើ
+                        printf ដើម្បីបង្ហាញតម្លៃនៃអញ្ញា x។
+
+                        ប្រើអញ្ញាអាចបង្កើតច្រើនទៀតបានដោយប្រើមុខងារនេះ:
+                        <p>#include < stdio.h> <br>
+
+                                int main() { <br>
+                                // កំណត់អញ្ញា a និង b ជាចំនួនគត់ និងបានផ្ទាល់តម្លៃ <br>
+                                int a = 10, b = 20;
+
+                                // កំណត់អញ្ញា sum ជាចំនួនគត់ និងបន្ថែមលទ្ធផលនៃ a និង b
+                                int sum = a + b; <br>
+
+                                // បង្ហាញតម្លៃនៃ a, b និង sum
+                                printf("The value of a is: %d\n", a); <br>
+                                printf("The value of b is: %d\n", b);
+                                printf("The sum of a and b is: %d\n", sum); <br>
+
+                                return 0; <br>
+                                }
+                        </p>
+                </p>
+            </font>
+            <img src="image/cpp-operaters1.png" style="width: 70%;" alt="">
+            <font face="khmer os">
+                <h3>C Operators ជាអ្វី</h3>
+                <p>នុងភាសា C,
+                    អ្នកអាចប្រើប្រាស់បញ្ជូនទិន្នន័យនិងធ្វើបច្ចុប្បន្នភាពដោយប្រើគូរ៉ាមដើម្បីរក្សាទុកនិងគ្រប់គ្រងតម្លៃរវាងអថេរឬអញ្ញានីមួយៗ។
+                    នៅខាងក្រោមនេះជាឧទាហរណ៍នៃប្រភេទទិន្នន័យនិងគូរ៉ាមដែលអ្នកអាចប្រើប្រាស់នៅក្នុងភាសា C::</p>
+                <h3>បញ្ជូនទិន្នន័យ (=): ប្រើដើម្បីបង្កើនតម្លៃនៃអថេរឬអញ្ញារបស់វាទៅក្នុងកូដ។
+
+                </h3>
+                <p style="color: red;">int x = 10;
+                </p>
+                <p> បញ្ជូនទិន្នន័យដោយប្រើផលគុណ (*, /, %): ប្រើដើម្បីគុណបន្ទាប់រវាងអថេរឬអញ្ញាពីគ្នាដូចជា គុណ (*), ចែក
+                    (/), និងសំបក (%)។</p>
+                <p style="color: blue;">int result = 15 * 2; // គុណ
+                    int quotient = 20 / 4; // ចែក
+                    int remainder = 10 % 3; // សំបក
+                </p>
+                <p>បញ្ជូនទិន្នន័យដោយប្រើលក្ខណៈផ្ទាល់ (+, -): ប្រើដើម្បីបង្កើតឬបង្កើនតម្លៃនិងដកតម្លៃពីគ្នាដូចជា បន្ថយ (+)
+                    និងដក (-)។
+
+                </p>
+                <p style="color: blue;">int sum = 5 + 3; // បន្ថយ
+                    int difference = 8 - 4; // ដក
+                </p>
+                <p>ប្រើដើម្បីប្រៀបធៀប (==, !=, <,>, <=,>=):
+                            ប្រើដើម្បីពិនិត្យលទ្ធផលនៃកូដនិងបន្ថែមលើតម្លៃរវាងអថេរឬអញ្ញាពីគ្នាដូចជា ស្មើ (==), មិនស្មើ
+                            (!=), តិចជាង (<), ធំជាង (>), តិចជាងឬស្មើ (<=), ធំជាងឬស្មើ (>=)។</p>
+                <p style="color:blue">bool isEqual = (x == y);<br> // ពិនិត្យលទ្ធផលដូចគ្នា
+                    bool isNotEqual = (a != b); <br> // ពិនិត្យលទ្ធផលមិនដូចគ្នា
+                </p>
+            </font>
+        </div>
+
+        <div class="column">
+            <img src="image/boostleann.png" style="width: 70%;" alt="">
+            <font face="khmer os">
+
+                <h3>C Booleans</h3>
+                <p>ក្នុងភាសាកូដ C, បញ្ជាក់អញ្ញាជាបន្តិចនិងជាមួយលេខ 0 ឬ 1។ ក្នុងកូដ C,
+                    អញ្ញាជាបន្តិចត្រូវបានប្រើដើម្បីបញ្ជាក់លទ្ធផលនៃទិន្នន័យដែលមានតម្លៃឬលទ្ធផលមួយមកតាមប្រភេទនៃការធ្វើចំណុចរបស់វា។
+                    តម្លៃ 0 ត្រូវបានប្រើសញ្ញាមិនប្រើនិងតម្លៃ 1 ត្រូវបានប្រើសញ្ញាប្រើ។
+
+                    ឧទាហរណ៍ប្រើអញ្ញាក្នុងកូដ C:</p>
+                <p>#include <stdio.h>
+
+                    int main() { <br>
+                        // អញ្ញាមិនប្រើ (false) <br>
+                        int isRainy = 0; <br>
+                    
+                        // អញ្ញាប្រើ (true) <br>
+                        int isSunny = 1; <br>
+                    
+                        // ប្រើអញ្ញាក្នុងកូដ if <br>
+                        if (isRainy) { <br>
+                            printf("It's raining.\n"); <br>
+                        } else { <br>
+                            printf("It's not raining.\n"); <br>
+                        } 
+                    
+                        // ប្រើអញ្ញាក្នុងកូដ switch <br>
+                        switch (isSunny) { <br>
+                            case 0: <br>
+                                printf("It's not sunny.\n");
+                                break; <br>
+                            case 1:
+                                printf("It's sunny.\n"); <br>
+                                break; <br>
+                            default: <br>
+                                printf("Weather condition unknown.\n"); <br>
+                        } <br>
+                    
+                        return 0; <br>
+                    }
+                    </p>
+
+                int main() { <br>
+                int day = 4; <br>
+
+                switch (day) { <br>
+                case 1: <br>
+                std::cout << "Sunday" << std::endl; <br>
+                    break; <br>
+                    case 2: <br>
+                    std::cout << "Monday" << std::endl; <br>
+                        break; <br>
+                        case 3: <br>
+                        std::cout << "Tuesday" << std::endl; <br>
+                            break; <br>
+                            case 4: <br>
+                            std::cout << "Wednesday" << std::endl; <br>
+                                break; <br>
+                                case 5: <br>
+                                std::cout << "Thursday" << std::endl; <br>
+                                    break;
+                                    case 6: <br>
+                                    std::cout << "Friday" << std::endl; <br>
+                                        break; <br>
+                                        case 7: <br>
+                                        std::cout << "Saturday" << std::endl; <br>
+                                            break; <br>
+                                            default: <br>
+                                            std::cout << "Invalid day" << std::endl; <br>
+                                                } <br>
+
+                                                return 0; <br>
+                                                }
+                                                </p>
+                                                <p>ក្នុងឧទាហរណ៍នេះ, isRainy និង isSunny គឺជាអញ្ញាដែលត្រូវបានប្រើក្នុងកូដ C។ ដើម្បីពិនិត្យលទ្ធផលនៃកូដ, យើងប្រើ if-else និង switch ដើម្បីបង្ហាញសារអំពីលទ្ធផលនោះ។
+
+                                                    កុំភ្លេចថាទិន្នន័យលេខ 0 ត្រូវបានពិនិត្យដើម្បីបញ្ជាក់ថាជាអញ្ញាមិនប្រើ (false) ហើយទិន្នន័យលេខ 1 ត្រូវបានពិនិត្យដើម្បីបញ្ជាក់ថាជាអញ្ញាប្រើ (true)។</p>
+                                                <a
+                                                    href="https://www.freecodecamp.org/news/data-structures-in-javascript-with-examples/">javaScript</a>
+                                                <a href="https://www.w3schools.com/js/js_statements.asp">W3School</a>
+            </font>
+        </div>
+    </div>
+    <div class="container">
+        <label for="searchInput">Search:</label>
+        <input type="text" id="searchInput" oninput="filterCode()">
+
+        <ul id="codeList">
+            <li class="codeItem" data-language="html"><a href="programIT.html" class="khmer">Programming</a></li>
+            <li class="codeItem" data-language="css" class="khmer">CSS code example 1</li>
+            <li class="codeItem" data-language="javascript" class="khmer">JavaScript code example 1</li>
+            <!-- Add more code examples as needed -->
+        </ul>
+    </div>
+    <footer>
+        <div class="ca">​ ​<font face="Khmer M1">
+                <h3>កាថ្លែងអំណរគុណ</h3>
+            </font>
+            <font face="khmer os">
+                <p>សូមអគុណចំពោះសិស្សានុសិស្សនិងអ្នកសិក្សាស្រាវជ្រាវ <br> ទំាងដែលបានចូលក្នុងគេហទំព័ WBC_SCHOOL</p>
+            </font>
+        </div>
+        <div class="cl">
+            <font face="khmer m1">
+                <h3>សិក្សានិងស្រាវបន្ថែម</h3>
+            </font>
+            <a href="https://isophal.com/">https://isophal.com</a><br>
+            <a
+                href="https://khmer.voanews.com/a/the-differences-between-state-school-and-private-school-on-it-sector/2427598.html">https://khmer.voanews.com/a/the-differences-between-state-school-and-private-school-on-it-sector/2427598.html</a>
+        </div>
+        <div class="ckk"><img src="image/heang.jpg" alt="" style="width: 20%; margin-top: 30px;">
+
+            <font face="khmer m1">
+                <h3>បង្កើតឡើងដោយស្នាដៃនិសិត្ស</h3>
+            </font>
+            <font face="khmer os">
+                <p>ឈ្មោះវ៉េត ម៉េងហ៊ាង <br>
+                    និសិត្សឆ្នាំទី២នៃ <br>សាកលវិទ្យាបៀលប្រាយ <br>
+                    fb_page: MR.Sinhong</p>
+
+            </font>
+        </div>
+    </footer>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        #searchInput {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        #codeList {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .codeItem {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            cursor: pointer;
+
+
+        }
+
+        .codeItem:hover {
+            background-color: #e0e0e0;
+        }
+
+        .khmer {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+    <script>
+        function filterCode() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            ul = document.getElementById('codeList');
+            li = ul.getElementsByClassName('codeItem');
+
+            for (i = 0; i < li.length; i++) {
+                a = li[i];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = '';
+                } else {
+                    li[i].style.display = 'none';
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>

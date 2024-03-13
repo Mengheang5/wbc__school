@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>WBC_SCHOOL</title>
+  <link rel="icon" href="image/lgo.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    /* Style the header */
+    .header {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 15px;
+    }
+
+    /* Clear floats after the columns */
+    .row::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width:600px) {
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="bigblock">
+    <div class="left"><img src="image/lgo.png" alt=""></div>
+    <div class="right">
+      <nav>
+        <ul>
+          <li><a class="h" href="index.html">Home</a></li>
+          <li><a class="h" href="about.html">About</a></li>
+        
+
+        </ul>
+      </nav>
+    </div>
+ 
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="image/Javascript-3.jpg" style="width:70%;" alt="">
+      <font face="khmer os">​<p>JavaScript
+          ជាភាសាកូដប្រើសម្រាប់ទាញយកទិន្នន័យរវាងអ្វីដែលប្រព័ន្ធកម្មវិធីពីមុននិងទិន្នន័យដែលត្រូវបានផ្ទុកទៅក្នុងទំព័របន្ត។
+          វាក៏ជាភាសាកូដប្រតិបត្តិការដែលអាចធ្វើអោយទោះបីមួយដែលមានកម្រិតផ្សេងៗគ្នានៅក្នុងរបៀបដំណើរការរបស់ប្រព័ន្ធបច្ចុប្បន្ន។
+          នៅលើរបៀបបង្កើតទិន្នន័យអក្សរនិងរបស់គេបានទូទាត់នៅលើទំព័រអ្នកប្រើកូដ JavaScript និងទាញយកទិន្នន័យបច្ចុប្បន្ន។.</p>
+      </font>
+      <img src="image/JavaScript_code.png" style="width:70%;" alt="">
+      <font face="khmer os">
+        <h3>តើ​ const​ គឺជាអ្វីនៅក្នុងភាសា​ Javascript</h3>
+        <p>កូដ JavaScript មានន័យថា const ជាពាក្យបញ្ជូនដល់អថេរ (keyword)
+          ដែលប្រើប្រាស់ដើម្បីបង្កើតអថេរដែលមានតម្លៃមិនប្ដូរបានឡើយ។ នៅពេលប្រើ const
+          ដើម្បីបង្កើតអថេរនីមួយៗទិន្នន័យនោះប៉ុន្តែមិនអាចប្តូរតម្លៃទៅទំនិញផ្សេងទៀតបានទេ។</p>
+        <h1>ឧទាហរណ៍:</h1>
+        <p>const pi = 3.14;
+          console.log(pi);
+          // ទោះបីជា 3.14
+
+          // បន្តពីរ។ មានការលុបកំណត់ const ដោយសូមមើលលេខតែមួយ។
+          // pi = 3.14159; // ការធ្វើដេរីវេនេះនឹងបង្កើតកំណត់ទីមួយ
+
+          // បញ្ហាផ្សេងៗ។ មិនអាចប្តូរតម្លៃដោយប្រើ const const greeting = "Hello";console.log(greeting);
+          // ទោះបីជា "Hello"
+
+          // ការប្តូរតម្លៃនៃអថេរពីតម្លៃដើមរបស់វា
+          // greeting = "Hi"; // ការធ្វើដេរីវេនេះនឹងបង្កើតកំណត់ទីមួយ
+        </p>
+        <p>វាបង្កើតអថេរ pi និង greeting ដែលមានតម្លៃដូចខាងលើ ហើយទិន្នន័យនេះមិនអាចប្តូរបានទេ។ ដោយប្រើ const
+          ដោយសារយ៉ាងដូចជាការប្រើ let និង var ដែលប្រើប្រាស់ដើម្បីបង្កើតអថេរដែលអាចប្តូរតម្លៃបាន។ ជាទូទៅអ្នកគួរតែប្រើ const
+          នៅពេលដែលតម្លៃនៃអថេរគឺមានតម្លៃដូចត្រូវ។</p>
+      </font>
+    </div>
+
+    <div class="column">
+      <img src="image/javascript-function-with-parameter.png" style="width: 70%;" alt="">
+      <font face="khmer os">
+        <p>ប្រសិនបើស្រាវជ្រាវក្នុងការបង្កើតទិន្នន័យអក្សរឬធាតុទូទៅកាន់បច្ចុប្បន្ននិងកូដ JavaScript
+          រួចការសាងសង់ទិន្នន័យនេះជាភាសាដែលប្រើប្រាស់ប្រភពនីមួយៗមានតម្លៃលេខលំនាំដូចនេះ:
+
+          ភាសាតម្លៃ (Value Types):
+
+          អត្ថបទ (String): ប្រើដើម្បីផ្តល់ឱ្យទិន្នន័យអក្សរ។
+          លេខ (Number): ប្រើដើម្បីផ្តល់ឱ្យទិន្នន័យលេខ។
+          ប៊ូលែ (Boolean): ប្រើដើម្បីផ្តល់ឱ្យទិន្នន័យត្រូវឬខុស។
+          null និង undefined: ប្រើដើម្បីផ្តល់ឱ្យទិន្នន័យដែលមិនត្រឹមត្រូវ។
+          អក្សរពាក់ព័ន្ធ (Object Types):
+
+          បណ្តាញ (Object): ប្រើដើម្បីរុករកទិន្នន័យនិងលក្ខណៈនៃទិន្នន័យដែលចំណេះដឹងក៏គ្រប់គ្រងបាន។
+          អង្គត់ (Array): ប្រើដើម្បីរុករកតារាងទិន្នន័យ។
+          ប្រព័ន្ធ (Function):
+
+          អនុគមន៍ (Function): ប្រើដើម្បីរុករកទិន្នន័យនិងទាញយកវា។
+          ទិន្នន័យអក្សរ (Symbol):
+
+          អុករូប (Symbol): ប្រើដើម្បីបង្កើតបង្ហាញអត្ថបទនានា
+
+
+
+
+        </p>
+      </font>
+      <img src="image/js-if-else-if-statement_0.webp" style="width: 70%;" alt="">
+      <font face="khmer os">
+        <h3>តើjavascript statementsជាអ្វី</h3>
+        <p>JavaScript statements
+          គឺជាការប្រើប្រាស់ប្រមូលនៃការដាក់បញ្ជូនបរិវេណបែបជាផ្នែកនៃកិច្ចការបង្កើតផ្ទុកលើការដោះស្រាយអំពីអថេរនិងសមត្ថភាពផ្ទុក។
+          មានស្រាប់ទៅតែអថេរ (variables) ដែលបញ្ជូនតែនូវអថេរដែលត្រូវបានប្រើក្នុងកិច្ចការ។ ជាឧទាហរណ៍:</p>
+        <h2>ក្នុងឧទាហរណ៍នេះ:
+
+        </h2>
+        <p>var x = 5; គឺជាអថេរ x ត្រូវបានបង្កើតនិងបញ្ជូនតម្លៃ 5 ទៅវា។ <br>
+          var y = 10; គឺជាអថេរ y ត្រូវបានបង្កើតនិងបញ្ជូនតម្លៃ 10 ទៅវា។ <br>
+          var sum = x + y; គឺជាការបង្កើតអថេរ sum ដែលបញ្ជូនតម្លៃសរុបរវាង x និង y ទៅវា។ <br>
+          console.log(sum); គឺជាស្រាបៀរនៃការបង្ហាញលទ្ធផលរបិយបង្រៀននៅក្នុងបរិវេណ។ <br>
+          JavaScript statements អាចត្រូវបានសរសេរនៅក្នុងឯកសារនិងបញ្ជូនទៅកន្លែងដើម្បីបញ្ជូនបរិវេណ។ <br>
+          ស្រាប់ឧទាហរណ៍ផ្សេងទៀតត្រូវបានប្រើសម្រាប់បង្កើតអថេរ, ប្រើទ្រង់ទ្រាយ, និងការទិញចូលបន្ទាប់។</p>
+      </font>
+    </div>
+
+    <div class="column">
+      <img src="image/18ik1fthnx7d2dnmx2mn.png" style="width: 70%;" alt="">
+      <font face="khmer os">
+        <p>ក្នុង JavaScript, "structure" និង "syntax"
+          ជាវាសនាក្នុងបច្ចេកវិទ្យាពីភាសាកូដនិងរបៀបផ្ដល់សិទ្ធិស្មើគ្នាទៅនឹងភាសាផ្សេងទៀត។
+          មុននិងពិនិត្យលើអ្វីដែលទស្សនកម្មវិធី JavaScript ជាមុនតែស្របតាមរូបសញ្ញាខាងក្រោមនេះ:</p>
+        <h3>ចង្កុចដើម (Statement):
+
+          ចង្កុចដើមជាមេរៀនសញ្ញាដែលផ្ទុយនឹងទិន្នន័យបច្ចុប្បន្ន។ ឧទាហរណ៍:</h3>
+        <mark> let x = 10;</mark>
+
+        </p>
+        <h3>ផ្ទុករួច (Expression):
+
+          ផ្ទុករួចជាមេរៀនសញ្ញាដែលផ្ទុយនឹងទិន្នន័យដែលត្រូវបានផ្ទុករួច។ ឧទាហរណ៍:</h3>
+        <mark>let y = 5 + 3;</mark>
+
+
+        <h3>រង្វាស់ (Block):
+
+          រង្វាស់ជាមេរៀនសញ្ញាដែលផ្ទុយនឹងជាក្រុមនៃចង្កុចដើមនិងផ្ទុករួច។ ឧទាហរណ៍:</h3>
+        <mark>{
+          let z = x + y;
+          console.log(z);
+          }
+        </mark>
+        <h3>អនុវត្ត (Function):
+
+          អនុវត្តជាមេរៀនសញ្ញាដែលផ្ទុយនឹងដំណើរការមួយដែលអាចទាញយកទិន្នន័យនិងធ្វើដំណើរការ។ ឧទាហរណ៍:</h3>
+        <mark> function addNumbers(a, b) {
+          return a + b;
+          }</mark>
+
+        <h3>របៀបបញ្ចូលផ្ទុករួច (Conditional Structures):
+
+          ប្រព័ន្ធដោយសារតែប្រព័ន្ធនេះផ្ទុយនឹងសេរីភាពនិងទិន្នន័យដែលត្រូវបានផ្ទុករួចរបស់វា។ ឧទាហរណ៍:</h3>
+        <mark>if (x > 0) {
+          console.log("Positive");
+          } else if (x < 0) { console.log("Negative"); } else { console.log("Zero"); }</mark>
+
+            <h3>របៀបបញ្ជូនចេញ (Loop Structures):
+
+              ប្រព័ន្ធដោយសារតែរបៀបបញ្ជូនចេញនេះផ្ទុយនឹងជនរបស់វា។ ឧទាហរណ៍:</h3>
+            <mark>for (let i = 0; i < 5; i++) { console.log(i); }</mark>
+
+                <h4>សូមមើលឯកសាររបស់ JavaScript ដើម្បីបន្ថែមពីបញ្ជីរួមនេះ</h4>
+                <a href="https://www.freecodecamp.org/news/data-structures-in-javascript-with-examples/">javaScript</a>
+                <a href="https://www.w3schools.com/js/js_statements.asp">W3School</a>
+      </font>
+    </div>
+  </div>
+  <div class="container">
+    <label for="searchInput">Search:</label>
+    <input type="text" id="searchInput" oninput="filterCode()">
+
+    <ul id="codeList">
+      <li class="codeItem" data-language="html"><a href="programIT.html" class="khmer">Programming</a></li>
+      <li class="codeItem" data-language="css" class="khmer">CSS code example 1</li>
+      <li class="codeItem" data-language="javascript" class="khmer">JavaScript code example 1</li>
+      <!-- Add more code examples as needed -->
+    </ul>
+  </div>
+  <footer>
+    <div class="ca">​ ​<font face="Khmer M1">
+            <h3>កាថ្លែងអំណរគុណ</h3>
+        </font>
+        <font face="khmer os">
+            <p>សូមអគុណចំពោះសិស្សានុសិស្សនិងអ្នកសិក្សាស្រាវជ្រាវទំាងដែលបានចូលក្នុងគេហទំព័ WBC_SCHOOL</p>
+        </font>
+    </div>
+    <div class="cl">
+        <font face="khmer m1">
+            <h3>សិក្សានិងស្រាវបន្ថែម</h3>
+        </font>
+        <a href="https://isophal.com/">https://isophal.com</a><br>
+        <a
+            href="https://khmer.voanews.com/a/the-differences-between-state-school-and-private-school-on-it-sector/2427598.html">https://khmer.voanews.com/a/the-differences-between-state-school-and-private-school-on-it-sector/2427598.html</a>
+    </div>
+    <div class="ckk"><img src="image/heang.jpg" alt="" style="width: 20%; margin-top: 30px;">
+
+        <font face="khmer m1">
+            <h3>បង្កើតឡើងដោយស្នាដៃនិសិត្ស</h3>
+        </font>
+        <font face="khmer os">
+            <p>ឈ្មោះវ៉េត ម៉េងហ៊ាង <br>
+                និសិត្សឆ្នាំទី២នៃ <br>សាកលវិទ្យាបៀលប្រាយ <br>
+            fb_page: MR.Sinhong</p>
+                
+        </font>
+    </div>
+</footer>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    #searchInput {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+
+    #codeList {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .codeItem {
+      padding: 10px;
+      margin: 5px 0;
+      background-color: #f5f5f5;
+      border-radius: 5px;
+      cursor: pointer;
+
+
+    }
+
+    .codeItem:hover {
+      background-color: #e0e0e0;
+    }
+
+    .khmer {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+  <script>
+    function filterCode() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById('searchInput');
+      filter = input.value.toUpperCase();
+      ul = document.getElementById('codeList');
+      li = ul.getElementsByClassName('codeItem');
+
+      for (i = 0; i < li.length; i++) {
+        a = li[i];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = '';
+        } else {
+          li[i].style.display = 'none';
+        }
+      }
+    }
+
+  </script>
+</body>
+
+</html>

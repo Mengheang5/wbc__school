@@ -1,0 +1,270 @@
+.bigblock {
+    width: 1707px;
+    height: 51px;
+    background-color: #14214C;
+    color: white;
+    display: flex;
+ 
+}
+.left{
+  
+    width: 50px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Silkscreen:wght@400;700&display=swap');
+.right{
+  
+    width: 97%;
+    text-align: center;
+
+   
+}
+ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+li{
+    margin: 0px 5px;
+  
+}
+.h:hover {
+  
+background-color: #1EBE9A;
+    padding: 16.13px;
+}
+img{
+    width: 50px;
+    margin-left: 30px;
+    right: 10px;
+  
+}
+.right1{
+
+  float: left;
+  width: 0%;
+  padding: 10px 15px;
+  margin-top: 7px;
+  width: 100px;
+ 
+}
+
+    @media only screen and (max-width:1500px) {
+        /* For mobile phones: */
+        .left, .img, .right,.right1,.block2,main,.blcokright,.blockleft,.le,.mdl,.rgt,.mbig,.j7,.m1,.mll,.footer,.ckk,.cl,.ca,.bigblock,.h{
+          width: 100%;
+        }}
+    @media only screen and (max-width:640px) {
+        /* For tablets: */
+        .main{
+            flex-direction: column;
+        }
+        main{
+            padding: 5em 0 5em;
+        }
+        .left {
+          width:3%;
+          padding: 0;
+          
+        }
+        .ca{
+          font-size: xx-small;
+        
+        }
+        .ckk{
+          font-size: xx-small;
+        }
+        .right {
+          width: 25%;
+     
+        }
+        .cl{
+          font-size: xx-small;
+        }
+        .right1 i{
+            width: 100%;
+           
+        }
+        .mll{
+          width: 100%;
+        }
+        .textcall{
+          flex-direction: column;
+        }
+        .le{
+          padding: 5px 200px 5px 2px;
+          text-align: center;
+         
+        }
+        .mdl{
+          padding: 5px 200px 5px 2px;
+          text-align: center;
+        }
+    .mbig{
+    
+      padding: 5em 0 5em;
+    
+    }
+    .h{
+      margin-left: 18px;
+    }
+   
+     
+      }
+      .block2{
+    
+        width:100%;
+        margin: 4px;
+
+        border-radius: 18px;
+     
+      }
+      .small{
+        width: 96%;
+        margin-left: 10px;
+        border-radius: 10px;
+      }
+      .blocksmall{
+        width: 100%;
+      }
+      .main{
+        display: flex;
+        flex: 1 1 100px;
+        text-align: center;
+        margin: 4px;
+      }
+      .blockleft{
+      
+        padding: 3 em 0 3em 0;
+      flex: 1 1 100px;
+      margin: 4px;
+      }
+      main{
+      
+        padding: 3 em 0 3em 0;
+        flex: 1 1 100px;
+        margin: 4px;
+      }
+  .blcokright{
+   
+        padding: 3 em 0 3em 0;
+        flex: 1 1 100px;
+        margin: 4px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+.le{
+
+ width: 100%;
+  height: 500px;
+  margin-top: 30px;
+  border: 1px solid black;
+  overflow: hidden;
+  overflow: scroll;
+
+}
+  .mdl{
+   
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+    overflow: scroll;
+  }
+  .rgt{
+  
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+    overflow: scroll;
+  }
+  .textcall{
+    display: flex;
+    text-align: center;
+  }
+  .mbig{
+
+  
+text-align: center;
+    margin-top: 30px;
+   
+  }
+  .m1{
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+  }
+  .mll{
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+  }
+  .m3{
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+  }
+  footer {
+    width: 100%;
+    background-color: #14214C;
+    height: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+  }
+  .ca{
+    width: 30%;
+
+    height: 300px;
+    margin: 4px;
+  }
+  .cl{
+    width: 30%;
+    
+    height: 300px;
+    margin: 4px;
+  }
+  

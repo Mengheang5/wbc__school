@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WBC_SCHOOL</title>
+  <link rel="icon" href="image/lgo.png">
+  <link rel="stylesheet" href="style.css">
+ 
+  <link rel="stylesheet" href="image/lgo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="bigblock">
+    <div class="left"><img src="image/lgo.png" alt=""></div>
+    <div class="right">
+      <nav>
+        <ul>
+          <li><a class="h" href="#">Home</a></li>
+          <li><a class="h" href="about.html">About</a></li>
+          <li><a class="h" href="video.html">video</a></li>
+          <li><a class="h" href="#">Student</a></li>
+        </ul>
+      </nav>
+    </div>
+   
+  </div>
+
+  <div class="block2">
+    <style>
+      * {
+        box-sizing: border-box
+      }
+
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0
+      }
+
+      .mySlides {
+        display: none
+      }
+
+      img {
+        vertical-align: middle;
+      }
+
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+
+      .active,
+      .dot:hover {
+        background-color: #717171;
+      }
+
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+
+        to {
+          opacity: 1
+        }
+      }
+
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+
+        .prev,
+        .next,
+        .text {
+          font-size: 11px
+        }
+      }
+    </style>
+    </head>
+
+    <body>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="image/st1.webp" style="width:85%">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="image/st.webp" style="width:85%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="image/st2.webp" style="width:85%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+
+  </div>
+  <header></header>
+  <div class="main">
+    <aside class="blockleft">
+
+
+      <div class="card">
+        <img class="khmer" src="image/How-do-I-become-a-good-Java-programmer-860x483.png" alt="Avatar"
+          style="width:70%">
+        <div class="container">
+          <a href="programIT.html">
+            <button type="button" class="hov"
+              style="width: 90px; height: 40px; color:#ffffff; background-color: #1EBE9A; border-radius: 18px; border: none;">On
+              Click</button>
+          </a>
+          <font face="khmer os ">
+            <p>តើ programming languages អ្វីខ្លះដែលត្រូវបានប្រើប្រាស់នៅក្នុងវិស័យ IT?ចុចដើម្បីស្វែងយល់បន្ថែម</p>
+          </font>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <div class="card">
+        <img class="khmer" src="image/ty.png" alt="Avatar" style="width:70%">
+        <div class="container">
+          <a href="js_script.html">
+            <button type="button" class="hov"
+              style="width: 90px; height: 40px; color:#ffffff; background-color: #1EBE9A; border-radius: 18px; border: none;">On
+              Click</button>
+          </a>
+          <font face="khmer os">
+            <p> កាសិក្សាពិមេរៀន javaScript . JavaScriptnគឺជា Clien-side Script Languge of the Web.និង​ fountion ខ្លះៗ
+            </p>
+          </font>
+
+        </div>
+      </div>
+    </main>
+    <aside class="blcokright">
+      <div class="card">
+        <img class="khmer" src="image/maxresdefault.jpg" alt="Avatar" style="width:70%">
+        <div class="container">
+          <a href="cshap.html">
+            <button type="button" class="hov"
+              style="width: 90px; height: 40px; color:#ffffff; background-color: #1EBE9A; border-radius: 18px; border: none;">On
+              Click</button>
+          </a>
+          <font face="khmer os ">
+            <p>​សិក្សាអំពីមេរៀន C# និង​ fountion​មួយចំនួន
+              <br>
+              សម្រាប់ការរៀនគឺអាចចាប់ផ្ដើមដោយការស្រេចស្រាយសតិដោយធ្វើអនុវត្តន៍
+            </p>
+
+          </font>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <div class="main">
+    <aside class="blockleft">
+
+
+      <div class="card">
+        <img class="khmer" src="image/C.png" alt="Avatar" style="width:70%">
+        <div class="container">
+          <a href="C++.html">
+            <button type="button" class="hov"
+              style="width: 90px; height: 40px; color:#ffffff; background-color: #1EBE9A; border-radius: 18px; border: none;">On
+              Click</button>
+          </a>
+          <font face="khmer os ">
+            <p>ភាសាកូដ C++ ជាភាសាកូដកើតឡើងដោយប្រើភាសា C និងបណ្តាញក្នុងវិធីបង្កើតកម្មវិធីជាតិវិជ្ជាជីវៈ។ </p>
+          </font>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <div class="card">
+        <img class="khmer" src="image/C-Programming.png" alt="Avatar" style="width:70%">
+        <div class="container">
+          <a href="C.html">
+            <button type="button" class="hov"
+              style="width: 90px; height: 40px; color:#ffffff; background-color: #1EBE9A; border-radius: 18px; border: none;">On
+              Click</button>
+          </a>
+          <font face="khmer os">
+            <p> ភាសាកូដ C គឺជា ភាសាកូដផ្លូវការដ៏ទូទៅនៃភាសាកូដ។
+              វាត្រូវបានប្រើជាមួយនឹងកម្មវិធីបង្កើតកូដក្នុងប្រព័ន្ធអតិថិជននិងកម្មវិធីប្រព័ន្ធបញ្ជាក់ទិន្នន័យ
+            </p>
+          </font>
+
+        </div>
+      </div>
+    </main>
+    <aside class="blcokright">
+      <div class="card">
+        <img class="khmer" src="image/PHP_Feature-Image.jpg" alt="Avatar" style="width:70%">
+        <div class="container">
+          <a href="PHP.html">
+            <button type="button" class="hov"
+              style="width: 90px; height: 40px; color:#ffffff; background-color: #1EBE9A; border-radius: 18px; border: none;">On
+              Click</button>
+          </a>
+          <font face="khmer os ">
+            <p>​PHP គឺជា ភាសាកូដមួយដែលត្រូវបានប្រើដើម្បីបង្កើនការកំណត់ប្រភេទទិន្នន័យលើបច្ចេកវិទ្យា (Server-Side
+              Scripting)។ នៅពេលនេះ, PHP 
+         
+            </p>
+
+          </font>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <div class="container">
+    <label for="searchInput">Search:</label>
+    <input type="text" id="searchInput" oninput="filterCode()">
+
+    <ul id="codeList" style="overflow: hidden;">
+        <li class="codeItem" data-language="html"><a href="programIT.html" class="khmer">Programming</a></li>
+        <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_syntax.php">snytax C#</a></li>
+        <li class="codeItem" data-language="javascript" class="khmer">JavaScript code example 1</li>
+        <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_statements.php">C Statements</a></li>
+        <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_output.php">C Output (Print Text)
+        </a></li>
+        <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_newline.php">C New Lines</a></li>
+        <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_switch.php">C Switch</a></li>
+        <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_while_loop.php">C While Loop</a></li>
+        <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_for_loop.php">C For Loop</a></li>
+        <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_break_continue.php">C Break and Continue</a></li>
+        <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_arrays.php">C Arrays</a></li>
+        <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_arrays_size.php">C Array Size</a></li>
+        <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_strings.php">C Strings
+        </a></li>
+        
+        <!-- Add more code examples as needed -->
+    </ul>
+</div>
+
+  <footer>
+    <div class="ca">​ ​<font face="Khmer M1">
+        <h3>កាថ្លែងអំណរគុណ</h3>
+      </font>
+      <font face="khmer os">
+        <p>សូមអគុណចំពោះសិស្សានុសិស្សនិងអ្នកសិក្សាស្រាវជ្រាវទំាងដែលបានចូលក្នុងគេហទំព័ WBC_SCHOOL</p>
+      </font>
+    </div>
+    <div class="cl">
+      <font face="khmer m1">
+        <h3>សិក្សានិងស្រាវបន្ថែម</h3>
+      </font>
+      <a href="https://isophal.com/">https://isophal.com</a><br>
+      <a
+        href="https://khmer.voanews.com/a/the-differences-between-state-school-and-private-school-on-it-sector/2427598.html">https://khmer.voanews.com/a/the-differences-between-state-school-and-private-school-on-it-sector/2427598.html</a>
+    </div>
+    <div class="ckk"><img src="image/heang.jpg" alt="" style="width: 20%; margin-top: 30px;">
+
+      <font face="khmer m1">
+        <h3>បង្កើតឡើងដោយស្នាដៃនិសិត្ស</h3>
+      </font>
+      <font face="khmer os">
+        <p>ឈ្មោះវ៉េត ម៉េងហ៊ាង <br>
+          និសិត្សឆ្នាំទី២នៃ <br>សាកលវិទ្យាបៀលប្រាយ <br>
+          fb_page: MR.Sinhong</p>
+
+      </font>
+    </div>
+  </footer>
+</body>
+<script>
+  function filterCode() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById('searchInput');
+      filter = input.value.toUpperCase();
+      ul = document.getElementById('codeList');
+      li = ul.getElementsByClassName('codeItem');
+
+      for (i = 0; i < li.length; i++) {
+          a = li[i];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = '';
+          } else {
+              li[i].style.display = 'none';
+          }
+      }
+  }
+
+</script>
+<style>
+
+
+
+
+  label {
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: block;
+  }
+
+  #searchInput {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+  }
+
+  #codeList {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .codeItem {
+      padding: 10px;
+      margin: 5px 0;
+      background-color: #f5f5f5;
+      border-radius: 5px;
+      cursor: pointer;
+
+
+  }
+
+  .codeItem:hover {
+      background-color: #e0e0e0;
+  }
+
+  .khmer {
+      text-decoration: none;
+      color: black;
+  }
+</style>
+</html>

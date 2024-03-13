@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WBC_SCHOOL</title>
+    <link rel="icon" href="image/lgo.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        /* Style the header */
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 15px;
+        }
+
+        /* Clear floats after the columns */
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bigblock">
+        <div class="left"><img src="image/lgo.png" alt=""></div>
+        <div class="right">
+            <nav>
+                <ul>
+                    <li><a class="h" href="index.html">Home</a></li>
+                    <li><a class="h" href="about.html">About</a></li>
+              
+
+                </ul>
+            </nav>
+        </div>
+      
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="image/CSharp1-min.jpg" style="width:70%;" alt="">
+            <font face="khmer os">​<p>ការប្រើភាសា C#
+                    សម្រាប់ការរៀនគឺអាចចាប់ផ្ដើមដោយការស្រេចស្រាយសតិដោយធ្វើអនុវត្តន៍ការលើសពីគេហទំព័រដែលផ្តល់អំពីការស្រេចស្រាយសតិរបស់
+                    C#។
+
+                    នៅក្នុងភាសា C#
+                    ជាភាសាបង្ហាញផ្សេងៗនៃប្រព័ន្ធគណនេយ្យដែលជាស្រដៀងទៅនឹងប្រព័ន្ធគណនេយ្យផ្សេងទៀតដែលគេសិក្សាទៅក្នុងវិធីសាស្រ្តការកំណត់ផ្នែកចុងបច្ចេកទេសនិងការពិនិត្យឡើងវិញផងដែរ។
+                    នៅទីនេះនិងមានប៊ូលុងលើកលេងដំបូងអំពីការរៀនរបស់ C# ជាការចាប់ផ្តើម:</p>
+
+            </font>
+            <img src="image/code.png" style="width:70%;" alt="">
+            <font face="khmer os">
+                <p>ក្នុងលក្ខណៈប្រព័ន្ធដ៏ស្រដៀងទៅនឹង C# នេះ។ នេះជាលេខកូដដែលសំគាល់ថា "Hello, World!" ស្រេចស្រាយរបស់ C#
+                    ដោយប្រើអង្គភាព Console ដែលមានក្រាហ្វាម៉ាល់ស្កាល់។
+                    ស្វែងយល់ពីប្រព័ន្ធនេះនៅពីទីនេះក្រោយពេលច្បាស់លាស់គឺជាការស្រេចស្រាយទៅលើទម្រង់របស់ C#។
+
+                    ពេលសិក្សាអំពី C# ដោយសម្រាប់ការបង្កើតកម្មវិធីនិងការទំនាក់ទំនងជាច្រើននៃការរចនាសម្ព័ន្ធ។
+                    អ្នកអាចស្រេចស្រាយប្រព័ន្ធដែលរចនាសម្ព័ន្ធរបស់អ្នកបានដោយប្រើកូដ C# ដើម្បីរៀនបន្តបន្ទាប់។</p>
+
+            </font>
+            <img src="image/snytax (1).jpg" style="width: 70%;" alt="">
+            <font face="khmer os">
+                <p>ការសរសេរកូដភាសា C# បង្ហាញដោយរបៀបដែលវាមាននៅក្នុងជំនាន់នៃកូដប្រភេទ C-style (C, C++, Java)។
+                    សម្រាប់ការសរសេរកូដ C# សូមឧបករណ៍បណ្តាញនិងអ្នកសរសេរមិនដែលរឹងមាំ។ សូមមើលទៅក្នុងឧបករណ៍តំលៃដើម Microsoft
+                    Visual Studio ដើម្បីទិដ្ឋភាពសរសេរកូដ C#។
+
+                    នៅទីនេះជាឧទាហរណ៍ប្រសិនបើអ្នកចង់ស្វែងយល់ពីសម្រាប់រក្សាអក្សរជាមុននឹងរក្សាអក្សរ។</p>
+                <p>using System;<br>
+
+                    class Program <br>
+                    {
+                    static void Main() <br>
+                    { <br>
+                    // នៅទីនេះសរសេរសាមញ្ញចាប់ផ្ដើម <br>
+                    Console.WriteLine("Hello, World!"); <br>
+
+                    // អ្នកអាចសរសេរកូដនៅទីនេះ
+                    }
+                    }
+                </p>
+                <h3>C#, "String" </h3>
+                <p>
+                    ក្នុងកូដ C#, "String" គឺជាប្រភេទទិន្នន័យដែលមានប្រភេទគឺជាប្រភេទតួអក្សរ (text)។
+                    វាជាអក្សរដែលអាចត្រូវបានប្រើដើម្បីរក្សាទុកអត្ថបទឬពាក្យ។ ក្នុង C#, "String"
+                    ត្រូវបានបង្ហាញជាអក្សរតិចតួចដោយសញ្ញា double quotes ("") ឬតម្លៃសញ្ញារបស់ char ('')។</p>
+                <h3>ឧទាហរណ៍:</h3>
+                <p>string myString = "សិក្ខាសាលារៀន";<br>
+                    Console.WriteLine(myString);
+                </p>
+                <p>នៅលើដើម្បីយកប្រភេទនៃ String បានប្រើដោយរក្សាប្រភេទទិន្នន័យ "string"។
+                    វាអាចរក្សាទុកអត្ថបទឬចំនួនទិន្នន័យដែលមានក្នុងវាបាន។
+
+                    សម្រាប់បញ្ជីនៃសញ្ញារបស់ String ឬប្រភេទផ្សេងទៀតនៃសញ្ញា៖
+
+                    Length: រកប្រវែងនៃ String។</p>
+                <p>string myString = "Hello, World!"; <br>
+                    int length = myString.Length; <br>
+                    Console.WriteLine(length); // 13
+                </p>
+                <p>string myString = "Hello, World!";
+                    int length = myString.Length;
+                    Console.WriteLine(length); // 13
+                </p>
+            </font>
+
+        </div>
+
+        <div class="column">
+            <img src="image/variables-in-C-1.png" style="width: 70%;" alt="">
+            <font face="khmer os">
+                <h3>តើVariablesក្នុងភាសា Code C#គឺជាអ្វី?</h3>
+                <p>ប្រសិនបើស្រាវជ្រាវក្នុងការបង្កើតទិន្នន័យអក្សរឬធាតុទូទៅកាន់បច្ចុប្បន្ននិងកូដ JavaScript
+                    រួចការសាងសង់ទិន្នន័យនេះជាភាសាដែលប្រើប្រាស់ប្រភពនីមួយៗមានតម្លៃលេខលំនាំដូចនេះ:
+
+                    ភាសាតម្លៃ (Value Types):
+
+                    អត្ថបទ (String): ប្រើដើម្បីផ្តល់ឱ្យទិន្នន័យអក្សរ។
+                    លេខ (Number): ប្រើដើម្បីផ្តល់ឱ្យទិន្នន័យលេខ។
+                    ប៊ូលែ (Boolean): ប្រើដើម្បីផ្តល់ឱ្យទិន្នន័យត្រូវឬខុស។
+                    null និង undefined: ប្រើដើម្បីផ្តល់ឱ្យទិន្នន័យដែលមិនត្រឹមត្រូវ។
+                    អក្សរពាក់ព័ន្ធ (Object Types):
+
+                    បណ្តាញ (Object): ប្រើដើម្បីរុករកទិន្នន័យនិងលក្ខណៈនៃទិន្នន័យដែលចំណេះដឹងក៏គ្រប់គ្រងបាន។
+                    អង្គត់ (Array): ប្រើដើម្បីរុករកតារាងទិន្នន័យ។
+                    ប្រព័ន្ធ (Function):
+
+                    អនុគមន៍ (Function): ប្រើដើម្បីរុករកទិន្នន័យនិងទាញយកវា។
+                    ទិន្នន័យអក្សរ (Symbol):
+
+                    អុករូប (Symbol): ប្រើដើម្បីបង្កើតបង្ហាញអត្ថបទនានា
+
+                    <img src="image/value_reference2-r-700.png" style="width: 70%;" alt="">
+                <h3>ក្នុងឧទាហរណ៍នេះ:</h3>
+
+                int myNum = 5; <br>
+                double myDoubleNum = 5.99D; <br>
+                char myLetter = 'D'; <br>
+                bool myBool = true; <br>
+                string myText = "Hello";
+                </p>
+
+            </font>
+            <iframe width="95%" height="315"
+                src="https://www.youtube.com/embed/OXTK7cnphYY?si=qInpeAmpdn1QNoXH&amp;start=13"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <font face="khmer os">
+                <h3>for loop</h3>
+                <p>ក្នុង C#, "for loop"
+                    ជាម៉ាកសញ្ញាដែលមិនតែសម្រាប់ការរុករកទៅតាមអត្ថបទឬទិន្នន័យដែលមានជាតម្រូវការដោយមួយឬច្រើនដោយវាមានមួយឬច្រើនផ្នែក:
+                </p>
+                <p>Initialization: បើយើងកំណត់អថេរ (variable) ឬរបារមាននៅលើសពីស្ថានភាពដែលបានគេបញ្ជាក់អំពីអត្ថបទឬទិន្នន័យ។
+
+                    Condition:
+                    អថេរនៅក្នុងស្ថានភាពដែលត្រូវបន្តក្នុងម៉ាកតាមតំលៃផ្ទុយនៃអថេរប៉ុន្តែក្នុងករណីនេះយើងប្រើគួរតែត្រូវផ្ដល់តម្លៃ
+                    "true"។ ប្រសិនបើអថេរនៅក្នុងស្ថានភាពនោះត្រូវបានអាចពីរសម្រាប់បន្តឬបញ្ឈរជាបន្តឬដូច្នេះនឹងផុតពីរ។
+
+                    Iteration: ជម្រើសអំពីវាបានរកឃើញឬដឹងពីវាដើម្បីរកបញ្ហាអំពីអថេរឬទិន្នន័យដើម្បីបង្ហាញ
+                    ឬដឹងពីតម្លៃនៅលើអថេរ ឬទិន្នន័យនោះទៀត។</p>
+                    <p>Initialization: int i = 0; ដោយកំណត់អថេរ i ដែលមានតម្លៃបន្ថែមនៅលើ 0។
+
+                        Condition: i < 5; ដោយត្រូវប្រើតម្លៃនៃអថេរ i ដែលត្រូវបានកំណត់ក្នុង initialization។ ប្រសិនបើតម្លៃនៃ i មិនតូចជាង 5 នោះវាគួរតែបញ្ចូលទៅក្នុង "for loop"។
+                        
+                        Iteration: i++ ដោយគ្រាន់តែការបន្ថែមតម្លៃនៃអថេរ i ដោយ 1 ក្នុងមួយវេន។
+                        
+                        នៅក្នុងឧទាហរណ៍នេះដើម្បីទស្សន៍បញ្ហារបស់ "for loop" នេះដែរថា វានឹងបញ្ចូ</p>
+
+            </font>
+        </div>
+
+        <div class="column">
+            <img src="image/array-in-C.png" style="width: 70%;" alt="">
+            <font face="khmer os">
+                <p>ក្នុងភាសា C#, វាជាចំនួននៃទិន្នន័យដែលអាចត្រូវបានផ្ទុកក្នុងមួយវេន។
+                    អ្នកអាចប្រើវាសម្រាប់រក្សាទុកទិន្នន័យដូចជា ចំនួនគត់, អក្សរ, ស្មុគស្មាញ, ប្រភេទទិន្នន័យ,
+                    និងអ្វីដែលអ្នកចង់ប្រើប្រាស់ទៀត។ បន្ទាប់ពីបង្កើតអថេរ (variable) អ្នកអាចប្រើវាសម្រាប់ផ្ទុកតម្លៃ
+                    និងទិន្នន័យផ្សេងគ្នានៅពេលក្រោយ។
+
+                    ទាញយកឧទាហរណ៍:</p>
+<p>// បង្កើតអថេរតួអក្សរមួយ
+    char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
+    
+    // បង្កើតអថេរតួអក្សរមួយដោយត្រឹមត្រូវ
+    char[] consonants = new char[6];
+    consonants[0] = 'b';
+    consonants[1] = 'c';
+    consonants[2] = 'd';
+    consonants[3] = 'f';
+    consonants[4] = 'g';
+    consonants[5] = 'h';
+    
+    // បង្ហាញប្រភេទតួអក្សរ
+    Console.WriteLine("Vowels: " + new string(vowels));
+    Console.WriteLine("Consonants: " + new string(consonants));
+    </p><p>ក្នុងឧទាហរណ៍នេះ, យើងបានប្រើតម្រូវតែតម្លៃតួអក្សរ (characters) ជាប្រភេទតួអក្សរ។ ការប្រើប្រាស់ទិន្នន័យផ្សេងៗដូចជាលេខ, ស្លាក, ជួរដេក, ឬប្រភេទទិន្នន័យដែលមិនមែនជាប្រភេទតួអក្សរត្រូវបានផ្ទៀងផ្ទាត់ដោយសញ្ញាត្រង់ចំពោះគល់ទៅនឹងការប្រកួតឡើង។
+
+        បើយើងមិនដឹងពីប្រភេទតួអក្សរត្រូវបានប្រើប្រាស់ទេ, យើងគួររក្សាទុកលក្ខណៈនិងការប្រើប្រាស់នៃអាជ្ញាធរតួអក្សរដូចខាងក្រោម។</p>
+        <p>// ប្រើប្រាស់ int ដោយប្រើ Array
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            
+            // ប្រើប្រាស់ string ដោយប្រើ Array
+            string[] names = { "John", "Jane", "Bob", "Alice" };
+            
+            // ប្រើប្រាស់ double ដោយប្រើ Array
+            double[] prices = { 1.99, 2.49, 0.99, 4.99 };
+            
+            // ប្រើប្រាស់ bool ដោយប្រើ Array
+            bool[] flags = { true, false, true, false };
+            </p>
+            <img src="image/c-sharp-oops-concept.png" style="width: 70%;" alt="">
+            <h3>C#  oopគឺជាអ្វី</h3>
+            <p>កូដដែលត្រូវបានរក្សាបានជាមួយនឹងអក្សរ "OOP" សំខាន់បំផុតរបស់វិទ្យាសាស្ត្រភាសា "Object-Oriented Programming"។ OOP ជាម៉ូឌុលអន្តរគមន៍ដែលត្រូវបានប្រើដើម្បីរក្សាកូដនូវច្បាប់និងរបៀបដោះស្រាយបញ្ហាផ្សេងៗ។
+
+                ក្នុងភាសា C#, OOP គឺរួមមានប្រភេទទិន្នន័យមួយផ្សេងទៀតហើយ។ ទូទៅនៅក្នុង OOP, យើងស្ថិតក្នុងប្រភេទទិន្នន័យស្របនឹង "អថេរ" (Objects) និង "បណ្ដាញ" (Classes)។
+                
+                អថេរ (Objects): អថេរគឺជាធាតុក្នុងប្រភេទទិន្នន័យដែលបានបង្កើតឡើងដោយប្រើប្រាស់ពហុជា "បុគ្គល" ឬ "វិទ្យា"។ បើយើងសរសេរកូដដូចខាងក្រោម:</p>
+                <p>class Car
+                    {
+                        public string Model;
+                        public string Color;
+                        public int Year;
+                    
+                        public void Start()
+                        {
+                            Console.WriteLine("The car is starting.");
+                        }
+                    
+                        public void Stop()
+                        {
+                            Console.WriteLine("The car has stopped.");
+                        }
+                    }
+                    
+                    class Program
+                    {
+                        static void Main()
+                        {
+                            Car myCar = new Car();
+                            myCar.Model = "Toyota";
+                            myCar.Color = "Blue";
+                            myCar.Year = 2022;
+                    
+                            myCar.Start();
+                            myCar.Stop();
+                        }
+                    }
+                    </p>
+                    <p>នោះទោះបីជា "Car" គឺជាអថេរមួយដែលបង្កើតឡើងដោយប្រើប្រាស់របស់យើង។
+
+                        បណ្តាញ (Classes): បណ្តាញគឺជាគណនាដែលដើម្បីបង្កើតឡើងនូវច្បាប់និងប្រភេទទិន្នន័យនិងជំនាន់ក្រុមទិន្នន័យដើម្បីរក្សាទុករួចគ្នា។</p>
+               <p>class Car
+                {
+                    public string Model;
+                    public string Color;
+                    public int Year;
+                
+                    public void Start()
+                    {
+                        Console.WriteLine("The car is starting.");
+                    }
+                
+                    public void Stop()
+                    {
+                        Console.WriteLine("The car has stopped.");
+                    }
+                }
+                
+                class Program
+                {
+                    static void Main()
+                    {
+                        Car myCar = new Car();
+                        myCar.Model = "Toyota";
+                        myCar.Color = "Blue";
+                        myCar.Year = 2022;
+                
+                        myCar.Start();
+                        myCar.Stop();
+                    }
+                }
+                </p>
+                                <a
+                                    href="https://www.freecodecamp.org/news/data-structures-in-javascript-with-examples/">javaScript</a>
+                                <a href="https://www.w3schools.com/js/js_statements.asp">W3School</a>
+            </font>
+        </div>
+    </div>
+    <div class="container">
+        <label for="searchInput">Search:</label>
+        <input type="text" id="searchInput" oninput="filterCode()">
+
+        <ul id="codeList" style="overflow: hidden;">
+            <li class="codeItem" data-language="html"><a href="programIT.html" class="khmer">Programming</a></li>
+            <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_syntax.php">snytax C#</a></li>
+            <li class="codeItem" data-language="javascript" class="khmer">JavaScript code example 1</li>
+            <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_statements.php">C Statements</a></li>
+            <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_output.php">C Output (Print Text)
+            </a></li>
+            <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_newline.php">C New Lines</a></li>
+            <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_switch.php">C Switch</a></li>
+            <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_while_loop.php">C While Loop</a></li>
+            <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_for_loop.php">C For Loop</a></li>
+            <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_break_continue.php">C Break and Continue</a></li>
+            <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_arrays.php">C Arrays</a></li>
+            <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_arrays_size.php">C Array Size</a></li>
+            <li class="codeItem" data-language="css" class="khmer"><a style="color: black;" href="https://www.w3schools.com/c/c_strings.php">C Strings
+            </a></li>
+            
+            <!-- Add more code examples as needed -->
+        </ul>
+    </div>
+    <footer>
+        <div class="ca">​ ​<font face="Khmer M1">
+                <h3>កាថ្លែងអំណរគុណ</h3>
+            </font>
+            <font face="khmer os">
+                <p>សូមអគុណចំពោះសិស្សានុសិស្សនិងអ្នកសិក្សា​ <br> ស្រាវជ្រាវទំាងដែលបានចូលក្នុងគេហទំព័ WBC_SCHOOL</p>
+            </font>
+        </div>
+        <div class="cl">
+            <font face="khmer m1">
+                <h3>សិក្សានិងស្រាវបន្ថែម</h3>
+            </font>
+            <a href="https://isophal.com/">https://isophal.com</a><br>
+            <a
+                href="https://khmer.voanews.com/a/the-differences-between-state-school-and-private-school-on-it-sector/2427598.html">https://khmer.voanews.com/a/the-differences-between-state-school-and-private-school-on-it-sector/2427598.html</a>
+        </div>
+        <div class="ckk"><img src="image/heang.jpg" alt="" style="width: 20%; margin-top: 30px;">
+
+            <font face="khmer m1">
+                <h3>បង្កើតឡើងដោយស្នាដៃនិសិត្ស</h3>
+            </font>
+            <font face="khmer os">
+                <p>ឈ្មោះវ៉េត ម៉េងហ៊ាង <br>
+                    និសិត្សឆ្នាំទី២នៃ <br>សាកលវិទ្យាបៀលប្រាយ <br>
+                    fb_page: MR.Sinhong</p>
+
+            </font>
+        </div>
+    </footer>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        #searchInput {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        #codeList {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .codeItem {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            cursor: pointer;
+
+
+        }
+
+        .codeItem:hover {
+            background-color: #e0e0e0;
+        }
+
+        .khmer {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+    <script>
+        function filterCode() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            ul = document.getElementById('codeList');
+            li = ul.getElementsByClassName('codeItem');
+
+            for (i = 0; i < li.length; i++) {
+                a = li[i];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = '';
+                } else {
+                    li[i].style.display = 'none';
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>
